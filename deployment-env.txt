@@ -1,0 +1,33 @@
+# Copy these environment variables to your deployment platform
+# ============================================================
+
+# Server Configuration
+NODE_ENV=production
+PORT=10000
+
+# Database (will be provided by your platform)
+DATABASE_URL=<your-database-url>
+
+# Security
+JWT_SECRET=mQnEwuyisRV/qK+jtidwRadikZu5Y3JlbBND+VusyFI=
+JWT_EXPIRES_IN=7d
+
+# Email (Gmail)
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=<your-email@gmail.com>
+SMTP_PASSWORD=<your-gmail-app-password>
+
+# URLs (update after deployment)
+CLIENT_URL=<your-frontend-url>
+SERVER_URL=<your-backend-url>
+
+# Company Info
+COMPANY_NAME=Your Company Name
+COMPANY_EMAIL=hr@yourcompany.com
+
+# ============================================================
+# Instructions:
+# 1. Replace all <placeholders> with actual values
+# 2. For Gmail app password: https://myaccount.google.com/apppasswords
+# 3. Update URLs after deploying frontend and backend
